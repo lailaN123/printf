@@ -72,7 +72,7 @@ int write_nbr(int is_neg, int index, char buffer[],
 		ex_ch = ' ';
 
 	return (write_num(index, buffer, flags, width, precision,
-		length, pad, ex_ch));
+		len, pad, ex_ch));
 }
 
 /**

@@ -92,7 +92,7 @@ int print_rev(va_list args, char buffer[],
 int print_rot13str(va_list args, char buffer[],
 	int flags, int width, int precision, int size);
 
-int write_unsgnd(int is_neg, int index,
+int write_uns(int is_neg, int index,
 char buffer[],
 	int flags, int width, int precision, int size);
 
